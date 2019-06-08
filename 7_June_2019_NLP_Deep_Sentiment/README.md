@@ -49,6 +49,6 @@
 
 ## Results
 
-[!UI_Image](https://raw.githubusercontent.com/Amir22010/NLP_Deep_Learning/master/7_June_2019_NLP_Deep_Sentiment/Image1.JPG)
+![UI_Image](https://raw.githubusercontent.com/Amir22010/NLP_Deep_Learning/master/7_June_2019_NLP_Deep_Sentiment/Image1.JPG)
 
-[!Result](https://raw.githubusercontent.com/Amir22010/NLP_Deep_Learning/master/7_June_2019_NLP_Deep_Sentiment/Image2.JP)G
+![Result](https://raw.githubusercontent.com/Amir22010/NLP_Deep_Learning/master/7_June_2019_NLP_Deep_Sentiment/Image2.JPG)
