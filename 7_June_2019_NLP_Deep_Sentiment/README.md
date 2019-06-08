@@ -46,3 +46,9 @@
 ## Notebook
 
 -[Notebook](https://colab.research.google.com/drive/1XYJzL9ZmrGN44ftM-211259_05tLMbS_)
+
+## Results
+
+[!UI_Image](https://raw.githubusercontent.com/Amir22010/NLP_Deep_Learning/master/7_June_2019_NLP_Deep_Sentiment/Image1.JPG)
+
+[!Result](https://raw.githubusercontent.com/Amir22010/NLP_Deep_Learning/master/7_June_2019_NLP_Deep_Sentiment/Image2.JP)G
