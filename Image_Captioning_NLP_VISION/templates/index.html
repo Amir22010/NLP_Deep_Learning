@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Caption</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      padding: 25px;
+    }
+
+/* HIDE RADIO */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 2px solid #f00;
+}
+
+  </style>
+</head>
+<body>
+<div>
+  <div class="container text-center">
+    <h2>Demo - Image Captioning using Keras</h2>
+  </div>
+</div> 
+<form action="/success" method="post" enctype="multipart/form-data" >
+<br/>
+<br/>
+   <h3>Choose image</h3><br>   
+     <div class="row">
+ <div class="col-lg-2">
+   <p>
+        <label class="radio-inline"><input type="radio" name="target" value="static/image/dog.jpg" required>
+ <img src="../static/image/dog.jpg" class="img-thumbnail" width="200" height="150" alt="Image">
+        </label>
+      </p>
+ </div>
+ <div class="col-lg-2">
+   <p>
+        <label class="radio-inline"><input type="radio" name="target" value="static/image/people.jpg" required>
+<img src="../static/image/people.jpg" class="img-thumbnail" width="200" height="150" alt="Image">
+        </label>
+      </p>
+ </div>
+
+<div class="col-lg-2">
+   <p>
+        <label class="radio-inline"><input type="radio" name="target" value="static/image/ski.jpg" required>
+ <img src="../static/image/ski.jpg" class="img-thumbnail" width="200" height="150" alt="Image">
+        </label>
+      </p>
+ </div>
+</div>
+
+
+<div class="row">
+ <div class="col-lg-2">
+   <p>
+        <label class="radio-inline"><input type="radio" name="target" value="static/image/child.jpg" required>
+ <img src="../static/image/child.jpg" class="img-thumbnail" width="200" height="150" alt="Image">
+        </label>
+      </p>
+ </div>
+ <div class="col-lg-2">
+   <p>
+        <label class="radio-inline"><input type="radio" name="target" value="static/image/street.jpg" required>
+ <img src="../static/image/street.jpg" class="img-thumbnail" width="200" height="150" alt="Image">
+        </label>
+      </p>
+ </div>
+
+<div class="col-lg-2">
+  <p>
+        <label class="radio-inline"><input type="radio" name="target" value="static/image/bear.jpg" required>
+ <img src="../static/image/bear.jpg" class="img-thumbnail" width="200" height="150" alt="Image">
+        </label>
+      </p>
+ </div>
+  <input type="submit" value="Caption" class="btn btn-primary" required>
+</div>
+
+</form>
+</div><br>
+</div><br>
+</body>
+ <footer>
+  <p>Made with Love &#128525; &#128536; by: Amir Khan</p>
+  <p>Contact information: <a href="mailto:khan.amir504@gmail.com">
+  khan.amir504@gmail.com</a>.</p>
+</footer> 
+</html>
