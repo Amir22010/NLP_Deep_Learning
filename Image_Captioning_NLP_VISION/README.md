@@ -11,7 +11,7 @@ Dataset used - Flickr8k Dataset.zip
 Technology Used - Keras
 
 
-![Demo](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Demo](https://github.com/Amir22010/NLP_Deep_Learning/blob/master/Image_Captioning_NLP_VISION/output.gif)
 
 ## Research Work - 
 
