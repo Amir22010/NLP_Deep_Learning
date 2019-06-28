@@ -13,7 +13,8 @@ Technology Used - Keras
 
 Demo Video -
 
-[![Demo Video]({image-url})]({https://github.com/Amir22010/NLP_Deep_Learning/blob/master/Image_Captioning_NLP_VISION/output.mp4} "Demo Video")
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/Amir22010/NLP_Deep_Learning/blob/master/Image_Captioning_NLP_VISION/output.mp4)
+
 
 <video width="320" height="240" controls>
   <source src="https://github.com/Amir22010/NLP_Deep_Learning/blob/master/Image_Captioning_NLP_VISION/output.mp4" type="video/mp4">
